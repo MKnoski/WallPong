@@ -1,0 +1,4 @@
+vhdl work "VGA_Driver.vhd"
+vhdl work "obraz.vhd"
+vhdl work "KBD_driver.vhd"
+vhdl work "ukladzik.vhf"

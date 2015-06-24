@@ -1,0 +1,955 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: ukladzik.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ukladzik.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ukladzik"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : ukladzik
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/lab/Desktop/WALLPONG_v1.0/obraz.vhd" in Library work.
+Entity <obraz> compiled.
+Entity <obraz> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/lab/Desktop/WALLPONG_v1.0/VGA_Driver.vhd" in Library work.
+Architecture behavioral of Entity vga_driver is up to date.
+Compiling vhdl file "C:/Users/lab/Desktop/WALLPONG_v1.0/KBD_driver.vhd" in Library work.
+Architecture behavioral of Entity kbd_driver is up to date.
+Compiling vhdl file "C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.vhf" in Library work.
+Entity <ukladzik> compiled.
+Entity <ukladzik> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <ukladzik> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <obraz> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <VGA_driver> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <KBD_driver> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ukladzik> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.vhf" line 140: Instantiating black box module <PS2_Kbd>.
+WARNING:Xst:2211 - "C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.vhf" line 162: Instantiating black box module <LCD1x64>.
+Entity <ukladzik> analyzed. Unit <ukladzik> generated.
+
+Analyzing Entity <obraz> in library <work> (Architecture <behavioral>).
+Entity <obraz> analyzed. Unit <obraz> generated.
+
+Analyzing Entity <VGA_driver> in library <work> (Architecture <behavioral>).
+Entity <VGA_driver> analyzed. Unit <VGA_driver> generated.
+
+Analyzing Entity <KBD_driver> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "C:/Users/lab/Desktop/WALLPONG_v1.0/KBD_driver.vhd" line 46: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <D0>, <E0>
+Entity <KBD_driver> analyzed. Unit <KBD_driver> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <obraz>.
+    Related source file is "C:/Users/lab/Desktop/WALLPONG_v1.0/obraz.vhd".
+WARNING:Xst:653 - Signal <v_2_paletka> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000111000010.
+WARNING:Xst:653 - Signal <v_2_blok_2> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000000110010.
+WARNING:Xst:653 - Signal <v_2_blok> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000000011001.
+WARNING:Xst:653 - Signal <v_1_paletka> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000110111000.
+WARNING:Xst:653 - Signal <v_1_blok_2> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000000011110.
+WARNING:Xst:653 - Signal <v_1_blok> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000000000101.
+WARNING:Xst:653 - Signal <szybkosc_pilki_v> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000000000100.
+WARNING:Xst:653 - Signal <szybkosc_domyslna> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000000000100.
+WARNING:Xst:653 - Signal <h_2_blok5> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000001010000000.
+WARNING:Xst:653 - Signal <h_2_blok4> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000111111110.
+WARNING:Xst:653 - Signal <h_2_blok3> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000101111100.
+WARNING:Xst:653 - Signal <h_2_blok2> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000011111010.
+WARNING:Xst:653 - Signal <h_2_blok1> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000001111000.
+WARNING:Xst:653 - Signal <h_1_blok5> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000001000001000.
+WARNING:Xst:653 - Signal <h_1_blok4> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000110000110.
+WARNING:Xst:653 - Signal <h_1_blok3> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000100000100.
+WARNING:Xst:653 - Signal <h_1_blok2> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000010000010.
+WARNING:Xst:653 - Signal <h_1_blok1> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000000000000.
+    Found finite state machine <FSM_0> for signal <kierunek>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 47942                                          |
+    | Inputs             | 43                                             |
+    | Outputs            | 4                                              |
+    | Clock              | Clk25MHz                  (rising_edge)        |
+    | Clock enable       | kierunek$cmp_ge0000       (positive)           |
+    | Power Up State     | 00000000000000000000000000000001               |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 3-bit register for signal <kolor>.
+    Found 64-bit register for signal <score>.
+    Found 32-bit register for signal <blok1>.
+    Found 32-bit adder for signal <blok1$add0000> created at line 211.
+    Found 32-bit subtractor for signal <blok1$share0000> created at line 120.
+    Found 32-bit register for signal <blok1_2>.
+    Found 32-bit subtractor for signal <blok1_2$share0000> created at line 120.
+    Found 32-bit register for signal <blok2>.
+    Found 32-bit subtractor for signal <blok2$share0000> created at line 120.
+    Found 32-bit register for signal <blok2_2>.
+    Found 32-bit subtractor for signal <blok2_2$share0000> created at line 120.
+    Found 32-bit register for signal <blok3>.
+    Found 32-bit subtractor for signal <blok3$share0000> created at line 120.
+    Found 32-bit register for signal <blok3_2>.
+    Found 32-bit subtractor for signal <blok3_2$share0000> created at line 120.
+    Found 32-bit register for signal <blok4>.
+    Found 32-bit subtractor for signal <blok4$share0000> created at line 120.
+    Found 32-bit register for signal <blok4_2>.
+    Found 32-bit subtractor for signal <blok4_2$share0000> created at line 120.
+    Found 32-bit register for signal <blok5>.
+    Found 32-bit subtractor for signal <blok5$share0000> created at line 120.
+    Found 32-bit register for signal <blok5_2>.
+    Found 32-bit subtractor for signal <blok5_2$share0000> created at line 120.
+    Found 1-bit register for signal <Clk25MHz>.
+    Found 32-bit register for signal <h_1_paletka>.
+    Found 32-bit adder for signal <h_1_paletka$add0000> created at line 112.
+    Found 32-bit comparator greatequal for signal <h_1_paletka$cmp_ge0000> created at line 113.
+    Found 32-bit comparator lessequal for signal <h_1_paletka$cmp_le0000> created at line 111.
+    Found 32-bit 4-to-1 multiplexer for signal <h_1_paletka$mux0000> created at line 111.
+    Found 32-bit subtractor for signal <h_1_paletka$sub0000> created at line 115.
+    Found 32-bit register for signal <h_1_pilka>.
+    Found 32-bit subtractor for signal <h_1_pilka$addsub0000> created at line 236.
+    Found 32-bit adder for signal <h_1_pilka$addsub0001> created at line 123.
+    Found 32-bit adder for signal <h_1_pilka$share0000> created at line 120.
+    Found 32-bit register for signal <h_2_paletka>.
+    Found 32-bit adder for signal <h_2_paletka$add0000> created at line 113.
+    Found 32-bit 4-to-1 multiplexer for signal <h_2_paletka$mux0000> created at line 111.
+    Found 32-bit subtractor for signal <h_2_paletka$sub0000> created at line 116.
+    Found 32-bit register for signal <h_2_pilka>.
+    Found 32-bit adder for signal <h_2_pilka$add0000> created at line 214.
+    Found 32-bit subtractor for signal <h_2_pilka$addsub0000> created at line 237.
+    Found 32-bit adder for signal <h_2_pilka$addsub0001> created at line 124.
+    Found 32-bit adder for signal <kierunek$add0000> created at line 211.
+    Found 32-bit comparator greatequal for signal <kierunek$cmp_ge0000> created at line 108.
+    Found 32-bit comparator greatequal for signal <kierunek$cmp_ge0001> created at line 164.
+    Found 32-bit comparator greatequal for signal <kierunek$cmp_ge0002> created at line 167.
+    Found 32-bit comparator greatequal for signal <kierunek$cmp_ge0003> created at line 171.
+    Found 32-bit comparator greatequal for signal <kierunek$cmp_ge0004> created at line 175.
+    Found 32-bit comparator greatequal for signal <kierunek$cmp_ge0005> created at line 179.
+    Found 32-bit comparator greatequal for signal <kierunek$cmp_ge0006> created at line 130.
+    Found 32-bit comparator greatequal for signal <kierunek$cmp_ge0007> created at line 277.
+    Found 32-bit comparator greatequal for signal <kierunek$cmp_ge0008> created at line 280.
+    Found 32-bit comparator greatequal for signal <kierunek$cmp_ge0009> created at line 284.
+    Found 32-bit comparator greatequal for signal <kierunek$cmp_ge0010> created at line 288.
+    Found 32-bit comparator greatequal for signal <kierunek$cmp_ge0011> created at line 292.
+    Found 32-bit comparator greatequal for signal <kierunek$cmp_ge0012> created at line 235.
+    Found 32-bit comparator greater for signal <kierunek$cmp_gt0000> created at line 164.
+    Found 32-bit comparator greater for signal <kierunek$cmp_gt0001> created at line 167.
+    Found 32-bit comparator greater for signal <kierunek$cmp_gt0002> created at line 171.
+    Found 32-bit comparator greater for signal <kierunek$cmp_gt0003> created at line 175.
+    Found 32-bit comparator greater for signal <kierunek$cmp_gt0004> created at line 179.
+    Found 32-bit comparator greater for signal <kierunek$cmp_gt0005> created at line 139.
+    Found 32-bit comparator greater for signal <kierunek$cmp_gt0006> created at line 142.
+    Found 32-bit comparator greater for signal <kierunek$cmp_gt0007> created at line 146.
+    Found 32-bit comparator greater for signal <kierunek$cmp_gt0008> created at line 150.
+    Found 32-bit comparator greater for signal <kierunek$cmp_gt0009> created at line 154.
+    Found 32-bit comparator greater for signal <kierunek$cmp_gt0010> created at line 197.
+    Found 32-bit comparator greater for signal <kierunek$cmp_gt0011> created at line 197.
+    Found 32-bit comparator greater for signal <kierunek$cmp_gt0012> created at line 310.
+    Found 32-bit comparator lessequal for signal <kierunek$cmp_le0000> created at line 163.
+    Found 32-bit comparator lessequal for signal <kierunek$cmp_le0001> created at line 164.
+    Found 32-bit comparator lessequal for signal <kierunek$cmp_le0002> created at line 167.
+    Found 32-bit comparator lessequal for signal <kierunek$cmp_le0003> created at line 171.
+    Found 32-bit comparator lessequal for signal <kierunek$cmp_le0004> created at line 175.
+    Found 32-bit comparator lessequal for signal <kierunek$cmp_le0005> created at line 179.
+    Found 32-bit comparator lessequal for signal <kierunek$cmp_le0006> created at line 138.
+    Found 32-bit comparator lessequal for signal <kierunek$cmp_le0007> created at line 122.
+    Found 32-bit comparator lessequal for signal <kierunek$cmp_le0008> created at line 276.
+    Found 32-bit comparator lessequal for signal <kierunek$cmp_le0009> created at line 277.
+    Found 32-bit comparator lessequal for signal <kierunek$cmp_le0010> created at line 280.
+    Found 32-bit comparator lessequal for signal <kierunek$cmp_le0011> created at line 284.
+    Found 32-bit comparator lessequal for signal <kierunek$cmp_le0012> created at line 288.
+    Found 32-bit comparator lessequal for signal <kierunek$cmp_le0013> created at line 292.
+    Found 32-bit comparator lessequal for signal <kierunek$cmp_le0014> created at line 251.
+    Found 32-bit comparator less for signal <kierunek$cmp_lt0000> created at line 197.
+    Found 32-bit comparator less for signal <kierunek$cmp_lt0001> created at line 310.
+    Found 32-bit comparator greatequal for signal <kolor_0$cmp_ge0000> created at line 356.
+    Found 32-bit comparator greatequal for signal <kolor_0$cmp_ge0001> created at line 356.
+    Found 32-bit comparator greatequal for signal <kolor_0$cmp_ge0002> created at line 363.
+    Found 32-bit comparator greatequal for signal <kolor_0$cmp_ge0003> created at line 363.
+    Found 32-bit comparator greatequal for signal <kolor_0$cmp_ge0004> created at line 371.
+    Found 32-bit comparator greatequal for signal <kolor_0$cmp_ge0005> created at line 371.
+    Found 32-bit comparator greatequal for signal <kolor_0$cmp_ge0006> created at line 385.
+    Found 32-bit comparator greatequal for signal <kolor_0$cmp_ge0007> created at line 400.
+    Found 32-bit comparator greatequal for signal <kolor_0$cmp_ge0008> created at line 415.
+    Found 32-bit comparator greatequal for signal <kolor_0$cmp_ge0009> created at line 430.
+    Found 32-bit comparator greatequal for signal <kolor_0$cmp_ge0010> created at line 445.
+    Found 32-bit comparator greater for signal <kolor_0$cmp_gt0000> created at line 371.
+    Found 32-bit comparator greater for signal <kolor_0$cmp_gt0001> created at line 385.
+    Found 32-bit comparator greater for signal <kolor_0$cmp_gt0002> created at line 400.
+    Found 32-bit comparator greater for signal <kolor_0$cmp_gt0003> created at line 415.
+    Found 32-bit comparator greater for signal <kolor_0$cmp_gt0004> created at line 430.
+    Found 32-bit comparator greater for signal <kolor_0$cmp_gt0005> created at line 445.
+    Found 32-bit comparator greater for signal <kolor_0$cmp_gt0006> created at line 460.
+    Found 32-bit comparator greater for signal <kolor_0$cmp_gt0007> created at line 475.
+    Found 32-bit comparator greater for signal <kolor_0$cmp_gt0008> created at line 490.
+    Found 32-bit comparator greater for signal <kolor_0$cmp_gt0009> created at line 505.
+    Found 32-bit comparator less for signal <kolor_0$cmp_lt0000> created at line 356.
+    Found 32-bit comparator less for signal <kolor_0$cmp_lt0001> created at line 356.
+    Found 32-bit comparator less for signal <kolor_0$cmp_lt0002> created at line 363.
+    Found 32-bit comparator less for signal <kolor_0$cmp_lt0003> created at line 363.
+    Found 32-bit comparator less for signal <kolor_0$cmp_lt0004> created at line 371.
+    Found 32-bit comparator less for signal <kolor_0$cmp_lt0005> created at line 371.
+    Found 32-bit comparator less for signal <kolor_0$cmp_lt0006> created at line 385.
+    Found 32-bit comparator less for signal <kolor_0$cmp_lt0007> created at line 400.
+    Found 32-bit comparator less for signal <kolor_0$cmp_lt0008> created at line 415.
+    Found 32-bit comparator less for signal <kolor_0$cmp_lt0009> created at line 430.
+    Found 32-bit comparator less for signal <kolor_0$cmp_lt0010> created at line 445.
+    Found 32-bit comparator greatequal for signal <kolor_1$cmp_ge0000> created at line 371.
+    Found 32-bit comparator greatequal for signal <kolor_1$cmp_ge0001> created at line 371.
+    Found 32-bit comparator greatequal for signal <kolor_1$cmp_ge0002> created at line 385.
+    Found 32-bit comparator greatequal for signal <kolor_1$cmp_ge0003> created at line 400.
+    Found 32-bit comparator greatequal for signal <kolor_1$cmp_ge0004> created at line 415.
+    Found 32-bit comparator greatequal for signal <kolor_1$cmp_ge0005> created at line 430.
+    Found 32-bit comparator greatequal for signal <kolor_1$cmp_ge0006> created at line 445.
+    Found 32-bit comparator less for signal <kolor_1$cmp_lt0000> created at line 371.
+    Found 32-bit comparator less for signal <kolor_1$cmp_lt0001> created at line 371.
+    Found 32-bit comparator less for signal <kolor_1$cmp_lt0002> created at line 385.
+    Found 32-bit comparator less for signal <kolor_1$cmp_lt0003> created at line 400.
+    Found 32-bit comparator less for signal <kolor_1$cmp_lt0004> created at line 415.
+    Found 32-bit comparator less for signal <kolor_1$cmp_lt0005> created at line 430.
+    Found 32-bit comparator less for signal <kolor_1$cmp_lt0006> created at line 445.
+    Found 32-bit register for signal <licznik>.
+    Found 32-bit adder for signal <licznik$add0000> created at line 351.
+    Found 32-bit register for signal <szybkosc_pilki_h>.
+    Found 32-bit adder for signal <szybkosc_pilki_h$add0000> created at line 311.
+    Found 32-bit adder for signal <szybkosc_pilki_h$add0001> created at line 311.
+    Found 32-bit adder for signal <szybkosc_pilki_h$add0002> created at line 312.
+    Found 32-bit adder for signal <szybkosc_pilki_h$add0003> created at line 311.
+    Found 32-bit adder for signal <szybkosc_pilki_h$add0004> created at line 198.
+    Found 32-bit adder for signal <szybkosc_pilki_h$addsub0000> created at line 202.
+    Found 32-bit comparator greater for signal <szybkosc_pilki_h$cmp_gt0000> created at line 202.
+    Found 32-bit comparator greater for signal <szybkosc_pilki_h$cmp_gt0001> created at line 202.
+    Found 32-bit comparator greater for signal <szybkosc_pilki_h$cmp_gt0002> created at line 198.
+    Found 32-bit comparator greater for signal <szybkosc_pilki_h$cmp_gt0003> created at line 198.
+    Found 32-bit comparator greater for signal <szybkosc_pilki_h$cmp_gt0004> created at line 315.
+    Found 32-bit comparator greater for signal <szybkosc_pilki_h$cmp_gt0005> created at line 315.
+    Found 32-bit comparator greater for signal <szybkosc_pilki_h$cmp_gt0006> created at line 311.
+    Found 32-bit comparator greater for signal <szybkosc_pilki_h$cmp_gt0007> created at line 311.
+    Found 32-bit comparator less for signal <szybkosc_pilki_h$cmp_lt0000> created at line 202.
+    Found 32-bit comparator less for signal <szybkosc_pilki_h$cmp_lt0001> created at line 202.
+    Found 32-bit comparator less for signal <szybkosc_pilki_h$cmp_lt0002> created at line 198.
+    Found 32-bit comparator less for signal <szybkosc_pilki_h$cmp_lt0003> created at line 198.
+    Found 32-bit comparator less for signal <szybkosc_pilki_h$cmp_lt0004> created at line 315.
+    Found 32-bit comparator less for signal <szybkosc_pilki_h$cmp_lt0005> created at line 315.
+    Found 32-bit comparator less for signal <szybkosc_pilki_h$cmp_lt0006> created at line 311.
+    Found 32-bit comparator less for signal <szybkosc_pilki_h$cmp_lt0007> created at line 311.
+    Found 32-bit adder for signal <szybkosc_pilki_h$share0000> created at line 120.
+    Found 32-bit register for signal <v_1_pilka>.
+    Found 32-bit adder for signal <v_1_pilka$addsub0000> created at line 210.
+    Found 32-bit subtractor for signal <v_1_pilka$sub0000> created at line 244.
+    Found 32-bit register for signal <v_2_pilka>.
+    Found 32-bit subtractor for signal <v_2_pilka$addsub0000>.
+    Found 32-bit register for signal <wynik>.
+    Found 32-bit adder for signal <wynik$share0000> created at line 120.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred 676 D-type flip-flop(s).
+	inferred  34 Adder/Subtractor(s).
+	inferred 107 Comparator(s).
+	inferred  64 Multiplexer(s).
+Unit <obraz> synthesized.
+
+
+Synthesizing Unit <VGA_driver>.
+    Related source file is "C:/Users/lab/Desktop/WALLPONG_v1.0/VGA_Driver.vhd".
+WARNING:Xst:653 - Signal <v2> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000001000000111.
+WARNING:Xst:653 - Signal <v1> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000000100111.
+WARNING:Xst:653 - Signal <h2> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000001100010000.
+WARNING:Xst:653 - Signal <h1> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000010010000.
+    Found 1-bit register for signal <blue_out>.
+    Found 1-bit register for signal <red_out>.
+    Found 10-bit register for signal <pix_x>.
+    Found 1-bit register for signal <vs_out>.
+    Found 9-bit register for signal <pix_y>.
+    Found 1-bit register for signal <green_out>.
+    Found 1-bit register for signal <hs_out>.
+    Found 1-bit register for signal <Clk25MHz>.
+    Found 32-bit up counter for signal <horizontal_counter>.
+    Found 32-bit comparator greater for signal <hs_out$cmp_gt0000> created at line 92.
+    Found 32-bit comparator less for signal <hs_out$cmp_lt0000> created at line 92.
+    Found 10-bit subtractor for signal <pix_x$sub0000> created at line 70.
+    Found 9-bit subtractor for signal <pix_y$sub0000> created at line 71.
+    Found 32-bit comparator greatequal for signal <red_out$cmp_ge0000> created at line 64.
+    Found 32-bit comparator greatequal for signal <red_out$cmp_ge0001> created at line 64.
+    Found 32-bit comparator less for signal <red_out$cmp_lt0000> created at line 64.
+    Found 32-bit comparator less for signal <red_out$cmp_lt0001> created at line 64.
+    Found 32-bit register for signal <vertical_counter>.
+    Found 32-bit adder for signal <vertical_counter$add0000> created at line 106.
+    Found 32-bit adder for signal <vertical_counter$addsub0000> created at line 109.
+    Found 32-bit comparator greater for signal <vs_out$cmp_gt0000> created at line 99.
+    Found 32-bit comparator less for signal <vs_out$cmp_lt0000> created at line 99.
+    Summary:
+	inferred   1 Counter(s).
+	inferred  57 D-type flip-flop(s).
+	inferred   4 Adder/Subtractor(s).
+	inferred   8 Comparator(s).
+Unit <VGA_driver> synthesized.
+
+
+Synthesizing Unit <KBD_driver>.
+    Related source file is "C:/Users/lab/Desktop/WALLPONG_v1.0/KBD_driver.vhd".
+WARNING:Xst:737 - Found 1-bit latch for signal <left>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <right>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+Unit <KBD_driver> synthesized.
+
+
+Synthesizing Unit <ukladzik>.
+    Related source file is "C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.vhf".
+WARNING:Xst:653 - Signal <XLXI_13_Reset_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_13_Blank_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0000000000000000.
+Unit <ukladzik> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 38
+ 10-bit subtractor                                     : 1
+ 32-bit adder                                          : 20
+ 32-bit subtractor                                     : 16
+ 9-bit subtractor                                      : 1
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 33
+ 1-bit register                                        : 10
+ 10-bit register                                       : 1
+ 32-bit register                                       : 20
+ 64-bit register                                       : 1
+ 9-bit register                                        : 1
+# Latches                                              : 2
+ 1-bit latch                                           : 2
+# Comparators                                          : 115
+ 32-bit comparator greatequal                          : 34
+ 32-bit comparator greater                             : 33
+ 32-bit comparator less                                : 32
+ 32-bit comparator lessequal                           : 16
+# Multiplexers                                         : 2
+ 32-bit 4-to-1 multiplexer                             : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <XLXI_3/kierunek/FSM> on signal <kierunek[1:4]> with one-hot encoding.
+----------------------------------------------
+ State                            | Encoding
+----------------------------------------------
+ 00000000000000000000000000000000 | 0100
+ 00000000000000000000000000000001 | 0001
+ 00000000000000000000000000000010 | 0010
+ 00000000000000000000000000000011 | 1000
+----------------------------------------------
+Reading core <PS2_Kbd.ngc>.
+Reading core <LCD1x64.ngc>.
+Loading core <PS2_Kbd> for timing and area information for instance <XLXI_5>.
+Loading core <LCD1x64> for timing and area information for instance <XLXI_13>.
+INFO:Xst:2261 - The FF/Latch <wynik_3> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_3> 
+INFO:Xst:2261 - The FF/Latch <wynik_4> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_4> 
+INFO:Xst:2261 - The FF/Latch <wynik_5> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_5> 
+INFO:Xst:2261 - The FF/Latch <wynik_6> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_6> 
+INFO:Xst:2261 - The FF/Latch <wynik_10> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_10> 
+INFO:Xst:2261 - The FF/Latch <wynik_7> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_7> 
+INFO:Xst:2261 - The FF/Latch <wynik_11> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_11> 
+INFO:Xst:2261 - The FF/Latch <wynik_8> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_8> 
+INFO:Xst:2261 - The FF/Latch <wynik_12> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_12> 
+INFO:Xst:2261 - The FF/Latch <wynik_9> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_9> 
+INFO:Xst:2261 - The FF/Latch <wynik_13> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_13> 
+INFO:Xst:2261 - The FF/Latch <wynik_14> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_14> 
+INFO:Xst:2261 - The FF/Latch <wynik_15> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_15> 
+INFO:Xst:2261 - The FF/Latch <wynik_20> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_20> 
+INFO:Xst:2261 - The FF/Latch <wynik_16> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_16> 
+INFO:Xst:2261 - The FF/Latch <wynik_21> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_21> 
+INFO:Xst:2261 - The FF/Latch <wynik_17> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_17> 
+INFO:Xst:2261 - The FF/Latch <wynik_22> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_22> 
+INFO:Xst:2261 - The FF/Latch <wynik_18> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_18> 
+INFO:Xst:2261 - The FF/Latch <wynik_23> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_23> 
+INFO:Xst:2261 - The FF/Latch <wynik_19> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_19> 
+INFO:Xst:2261 - The FF/Latch <wynik_24> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_24> 
+INFO:Xst:2261 - The FF/Latch <wynik_25> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_25> 
+INFO:Xst:2261 - The FF/Latch <wynik_30> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_30> 
+INFO:Xst:2261 - The FF/Latch <wynik_26> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_26> 
+INFO:Xst:2261 - The FF/Latch <wynik_31> in Unit <XLXI_3> is equivalent to the following 33 FFs/Latches, which will be removed : <score_31> <score_32> <score_33> <score_34> <score_35> <score_36> <score_37> <score_38> <score_39> <score_40> <score_41> <score_42> <score_43> <score_44> <score_45> <score_46> <score_47> <score_48> <score_49> <score_50> <score_51> <score_52> <score_53> <score_54> <score_55> <score_56> <score_57> <score_58> <score_59> <score_60> <score_61> <score_62> <score_63> 
+INFO:Xst:2261 - The FF/Latch <wynik_27> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_27> 
+INFO:Xst:2261 - The FF/Latch <wynik_28> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_28> 
+INFO:Xst:2261 - The FF/Latch <wynik_29> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_29> 
+INFO:Xst:2261 - The FF/Latch <wynik_0> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_0> 
+INFO:Xst:2261 - The FF/Latch <wynik_1> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_1> 
+INFO:Xst:2261 - The FF/Latch <wynik_2> in Unit <XLXI_3> is equivalent to the following FF/Latch, which will be removed : <score_2> 
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# Adders/Subtractors                                   : 38
+ 10-bit subtractor                                     : 1
+ 32-bit adder                                          : 20
+ 32-bit subtractor                                     : 16
+ 9-bit subtractor                                      : 1
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 733
+ Flip-Flops                                            : 733
+# Latches                                              : 2
+ 1-bit latch                                           : 2
+# Comparators                                          : 115
+ 32-bit comparator greatequal                          : 34
+ 32-bit comparator greater                             : 33
+ 32-bit comparator less                                : 32
+ 32-bit comparator lessequal                           : 16
+# Multiplexers                                         : 2
+ 32-bit 4-to-1 multiplexer                             : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <wynik_3> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_3> 
+INFO:Xst:2261 - The FF/Latch <wynik_4> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_4> 
+INFO:Xst:2261 - The FF/Latch <wynik_5> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_5> 
+INFO:Xst:2261 - The FF/Latch <wynik_6> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_6> 
+INFO:Xst:2261 - The FF/Latch <wynik_10> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_10> 
+INFO:Xst:2261 - The FF/Latch <wynik_7> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_7> 
+INFO:Xst:2261 - The FF/Latch <wynik_11> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_11> 
+INFO:Xst:2261 - The FF/Latch <wynik_8> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_8> 
+INFO:Xst:2261 - The FF/Latch <wynik_12> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_12> 
+INFO:Xst:2261 - The FF/Latch <wynik_9> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_9> 
+INFO:Xst:2261 - The FF/Latch <wynik_13> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_13> 
+INFO:Xst:2261 - The FF/Latch <wynik_14> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_14> 
+INFO:Xst:2261 - The FF/Latch <wynik_15> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_15> 
+INFO:Xst:2261 - The FF/Latch <wynik_20> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_20> 
+INFO:Xst:2261 - The FF/Latch <wynik_16> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_16> 
+INFO:Xst:2261 - The FF/Latch <wynik_21> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_21> 
+INFO:Xst:2261 - The FF/Latch <wynik_17> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_17> 
+INFO:Xst:2261 - The FF/Latch <wynik_22> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_22> 
+INFO:Xst:2261 - The FF/Latch <wynik_18> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_18> 
+INFO:Xst:2261 - The FF/Latch <wynik_23> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_23> 
+INFO:Xst:2261 - The FF/Latch <wynik_19> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_19> 
+INFO:Xst:2261 - The FF/Latch <wynik_24> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_24> 
+INFO:Xst:2261 - The FF/Latch <wynik_25> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_25> 
+INFO:Xst:2261 - The FF/Latch <wynik_30> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_30> 
+INFO:Xst:2261 - The FF/Latch <wynik_26> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_26> 
+INFO:Xst:2261 - The FF/Latch <wynik_31> in Unit <obraz> is equivalent to the following 33 FFs/Latches, which will be removed : <score_31> <score_32> <score_33> <score_34> <score_35> <score_36> <score_37> <score_38> <score_39> <score_40> <score_41> <score_42> <score_43> <score_44> <score_45> <score_46> <score_47> <score_48> <score_49> <score_50> <score_51> <score_52> <score_53> <score_54> <score_55> <score_56> <score_57> <score_58> <score_59> <score_60> <score_61> <score_62> <score_63> 
+INFO:Xst:2261 - The FF/Latch <wynik_27> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_27> 
+INFO:Xst:2261 - The FF/Latch <wynik_28> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_28> 
+INFO:Xst:2261 - The FF/Latch <wynik_29> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_29> 
+INFO:Xst:2261 - The FF/Latch <wynik_0> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_0> 
+INFO:Xst:2261 - The FF/Latch <wynik_1> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_1> 
+INFO:Xst:2261 - The FF/Latch <wynik_2> in Unit <obraz> is equivalent to the following FF/Latch, which will be removed : <score_2> 
+WARNING:Xst:1293 - FF/Latch <v_2_pilka_0> has a constant value of 0 in block <obraz>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <ukladzik> ...
+
+Optimizing unit <obraz> ...
+WARNING:Xst:1293 - FF/Latch <v_1_pilka_0> has a constant value of 0 in block <obraz>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <v_1_pilka_1> has a constant value of 1 in block <obraz>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <v_2_pilka_1> has a constant value of 1 in block <obraz>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <v_1_pilka_1> has a constant value of 1 in block <obraz>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <v_2_pilka_1> has a constant value of 1 in block <obraz>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <VGA_driver> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ukladzik, actual ratio is 50.
+INFO:Xst:2260 - The FF/Latch <cntDigit_0> in Unit <XLXI_13> is equivalent to the following 4 FFs/Latches : <cntDigit_0_1> <cntDigit_0_2> <cntDigit_0_3> <cntDigit_0_4> 
+INFO:Xst:2260 - The FF/Latch <cntDigit_1> in Unit <XLXI_13> is equivalent to the following 2 FFs/Latches : <cntDigit_1_1> <cntDigit_1_2> 
+INFO:Xst:2260 - The FF/Latch <State_16> in Unit <XLXI_13> is equivalent to the following FF/Latch : <State_16_1> 
+INFO:Xst:2260 - The FF/Latch <cntDigit_0> in Unit <XLXI_13> is equivalent to the following 4 FFs/Latches : <cntDigit_0_1> <cntDigit_0_2> <cntDigit_0_3> <cntDigit_0_4> 
+INFO:Xst:2260 - The FF/Latch <cntDigit_1> in Unit <XLXI_13> is equivalent to the following 2 FFs/Latches : <cntDigit_1_1> <cntDigit_1_2> 
+INFO:Xst:2260 - The FF/Latch <State_16> in Unit <XLXI_13> is equivalent to the following FF/Latch : <State_16_1> 
+FlipFlop XLXI_3/h_1_pilka_31 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 702
+ Flip-Flops                                            : 702
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ukladzik.ngr
+Top Level Output File Name         : ukladzik
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 16
+
+Cell Usage :
+# BELS                             : 8700
+#      AND2B1                      : 1
+#      GND                         : 3
+#      INV                         : 503
+#      LUT1                        : 372
+#      LUT2                        : 766
+#      LUT2_D                      : 6
+#      LUT2_L                      : 10
+#      LUT3                        : 734
+#      LUT3_D                      : 66
+#      LUT3_L                      : 12
+#      LUT4                        : 1956
+#      LUT4_D                      : 198
+#      LUT4_L                      : 251
+#      MUXCY                       : 2531
+#      MUXF5                       : 70
+#      MUXF6                       : 10
+#      MUXF7                       : 5
+#      VCC                         : 3
+#      XORCY                       : 1203
+# FlipFlops/Latches                : 832
+#      FD                          : 552
+#      FDE                         : 95
+#      FDR                         : 102
+#      FDRE                        : 45
+#      FDRS                        : 13
+#      FDRSE                       : 3
+#      FDS                         : 20
+#      LD                          : 2
+# Clock Buffers                    : 3
+#      BUFG                        : 2
+#      BUFGP                       : 1
+# IO Buffers                       : 15
+#      IBUF                        : 2
+#      IOBUF                       : 4
+#      OBUF                        : 9
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                     2533  out of   4656    54%  
+ Number of Slice Flip Flops:            832  out of   9312     8%  
+ Number of 4 input LUTs:               4874  out of   9312    52%  
+ Number of IOs:                          16
+ Number of bonded IOBs:                  16  out of    232     6%  
+ Number of GCLKs:                         3  out of     24    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+--------------------------------------------------+------------------------+-------+
+Clock Signal                                      | Clock buffer(FF name)  | Load  |
+--------------------------------------------------+------------------------+-------+
+Clk_50MHz                                         | BUFGP                  | 130   |
+XLXI_5/DO_Rdy(XLXI_5/ResDORdy/Mxor_DOut_Result1:O)| NONE(*)(XLXI_7/left)   | 2     |
+XLXI_3/Clk25MHz1                                  | BUFG                   | 612   |
+XLXI_4/Clk25MHz1                                  | BUFG                   | 88    |
+--------------------------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 23.180ns (Maximum Frequency: 43.140MHz)
+   Minimum input arrival time before clock: 3.490ns
+   Maximum output required time after clock: 5.515ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk_50MHz'
+  Clock period: 5.658ns (frequency: 176.730MHz)
+  Total number of paths / destination ports: 1949 / 232
+-------------------------------------------------------------------------
+Delay:               5.658ns (Levels of Logic = 6)
+  Source:            XLXI_13/cntDigit_0_1 (FF)
+  Destination:       XLXI_13/regDI_0 (FF)
+  Source Clock:      Clk_50MHz rising
+  Destination Clock: Clk_50MHz rising
+
+  Data Path: XLXI_13/cntDigit_0_1 to XLXI_13/regDI_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             10   0.514   0.780  cntDigit_0_1 (cntDigit_01)
+     LUT3:I2->O            1   0.612   0.000  Mmux_Digit_83 (Mmux_Digit_83)
+     MUXF5:I0->O           1   0.278   0.000  Mmux_Digit_6_f5_2 (Mmux_Digit_6_f53)
+     MUXF6:I0->O           1   0.451   0.000  Mmux_Digit_4_f6_2 (Mmux_Digit_4_f63)
+     MUXF7:I0->O           6   0.451   0.721  Mmux_Digit_2_f7_2 (Digit<3>)
+     LUT3_D:I0->O          1   0.612   0.360  Hex2ASCII<4>1 (Hex2ASCII<4>)
+     LUT4:I3->O            1   0.612   0.000  regDI_mux0001<7>1111 (regDI_mux0001<7>111)
+     FDS:D                     0.268          regDI_0
+    ----------------------------------------
+    Total                      5.658ns (3.798ns logic, 1.860ns route)
+                                       (67.1% logic, 32.9% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_3/Clk25MHz1'
+  Clock period: 23.180ns (frequency: 43.140MHz)
+  Total number of paths / destination ports: 877039044 / 684
+-------------------------------------------------------------------------
+Delay:               23.180ns (Levels of Logic = 65)
+  Source:            XLXI_3/h_1_paletka_0 (FF)
+  Destination:       XLXI_3/kolor_1 (FF)
+  Source Clock:      XLXI_3/Clk25MHz1 rising
+  Destination Clock: XLXI_3/Clk25MHz1 rising
+
+  Data Path: XLXI_3/h_1_paletka_0 to XLXI_3/kolor_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               6   0.514   0.721  XLXI_3/h_1_paletka_0 (XLXI_3/h_1_paletka_0)
+     LUT1:I0->O            1   0.612   0.000  XLXI_3/Mcompar_h_1_paletka_cmp_ge0000_cy<0>_rt (XLXI_3/Mcompar_h_1_paletka_cmp_ge0000_cy<0>_rt)
+     MUXCY:S->O            1   0.404   0.000  XLXI_3/Mcompar_h_1_paletka_cmp_ge0000_cy<0> (XLXI_3/Mcompar_h_1_paletka_cmp_ge0000_cy<0>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_h_1_paletka_cmp_ge0000_cy<1> (XLXI_3/Mcompar_h_1_paletka_cmp_ge0000_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_h_1_paletka_cmp_ge0000_cy<2> (XLXI_3/Mcompar_h_1_paletka_cmp_ge0000_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_h_1_paletka_cmp_ge0000_cy<3> (XLXI_3/Mcompar_h_1_paletka_cmp_ge0000_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_h_1_paletka_cmp_ge0000_cy<4> (XLXI_3/Mcompar_h_1_paletka_cmp_ge0000_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_h_1_paletka_cmp_ge0000_cy<5> (XLXI_3/Mcompar_h_1_paletka_cmp_ge0000_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_h_1_paletka_cmp_ge0000_cy<6> (XLXI_3/Mcompar_h_1_paletka_cmp_ge0000_cy<6>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_h_1_paletka_cmp_ge0000_cy<7> (XLXI_3/Mcompar_h_1_paletka_cmp_ge0000_cy<7>)
+     MUXCY:CI->O           1   0.399   0.426  XLXI_3/Mcompar_h_1_paletka_cmp_ge0000_cy<8> (XLXI_3/Mcompar_h_1_paletka_cmp_ge0000_cy<8>)
+     LUT3_D:I1->O         99   0.612   1.094  XLXI_3/Mcompar_h_1_paletka_cmp_ge0000_cy<10>1 (XLXI_3/h_1_paletka_cmp_ge0000)
+     LUT4_L:I3->LO         1   0.612   0.103  XLXI_3/Mmux_h_1_paletka_mux00002_SW1 (N669)
+     LUT4:I3->O           17   0.612   0.896  XLXI_3/Mmux_h_1_paletka_mux00002 (XLXI_3/h_1_paletka_mux0000<0>)
+     LUT4:I3->O            1   0.612   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_lut<0> (XLXI_3/Mcompar_kierunek_cmp_gt0012_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<0> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<0>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<1> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<2> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<3> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<4> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<5> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<6> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<6>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<7> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<7>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<8> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<8>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<9> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<9>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<10> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<10>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<11> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<11>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<12> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<12>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<13> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<13>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<14> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<14>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<15> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<15>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<16> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<16>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<17> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<17>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<18> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<18>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<19> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<19>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<20> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<20>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<21> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<21>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<22> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<22>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<23> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<23>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<24> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<24>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<25> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<25>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<26> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<26>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<27> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<27>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<28> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<28>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<29> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<29>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<30> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<30>)
+     MUXCY:CI->O          17   0.399   0.962  XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<31> (XLXI_3/Mcompar_kierunek_cmp_gt0012_cy<31>)
+     LUT3_D:I1->O          2   0.612   0.383  XLXI_3/kierunek_FSM_FFd1-In21_1 (XLXI_3/kierunek_FSM_FFd1-In21)
+     LUT4:I3->O           18   0.612   0.911  XLXI_3/wynik_mux0000<0>21_1 (XLXI_3/wynik_mux0000<0>21)
+     LUT4_D:I3->O         31   0.612   1.076  XLXI_3/blok1_mux0000<0>11 (XLXI_3/N9)
+     LUT4:I3->O            3   0.612   0.520  XLXI_3/blok1_mux0000<3>1 (XLXI_3/blok1_mux0000<3>)
+     LUT4:I1->O            1   0.612   0.000  XLXI_3/Mcompar_kolor_0_cmp_gt0000_lut<0> (XLXI_3/Mcompar_kolor_0_cmp_gt0000_lut<0>)
+     MUXCY:S->O            1   0.404   0.000  XLXI_3/Mcompar_kolor_0_cmp_gt0000_cy<0> (XLXI_3/Mcompar_kolor_0_cmp_gt0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_3/Mcompar_kolor_0_cmp_gt0000_cy<1> (XLXI_3/Mcompar_kolor_0_cmp_gt0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_3/Mcompar_kolor_0_cmp_gt0000_cy<2> (XLXI_3/Mcompar_kolor_0_cmp_gt0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_3/Mcompar_kolor_0_cmp_gt0000_cy<3> (XLXI_3/Mcompar_kolor_0_cmp_gt0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_3/Mcompar_kolor_0_cmp_gt0000_cy<4> (XLXI_3/Mcompar_kolor_0_cmp_gt0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_3/Mcompar_kolor_0_cmp_gt0000_cy<5> (XLXI_3/Mcompar_kolor_0_cmp_gt0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_3/Mcompar_kolor_0_cmp_gt0000_cy<6> (XLXI_3/Mcompar_kolor_0_cmp_gt0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_3/Mcompar_kolor_0_cmp_gt0000_cy<7> (XLXI_3/Mcompar_kolor_0_cmp_gt0000_cy<7>)
+     MUXCY:CI->O           3   0.399   0.454  XLXI_3/Mcompar_kolor_0_cmp_gt0000_cy<8> (XLXI_3/Mcompar_kolor_0_cmp_gt0000_cy<8>)
+     LUT4:I3->O            3   0.612   0.520  XLXI_3/kolor_1_mux00222 (XLXI_3/kolor_1_mux00222)
+     LUT4:I1->O            1   0.612   0.000  XLXI_3/kolor_1_mux00221437_SW1_F (N1943)
+     MUXF5:I0->O           2   0.278   0.383  XLXI_3/kolor_1_mux00221437_SW1 (N563)
+     LUT4:I3->O            1   0.612   0.426  XLXI_3/kolor_1_mux00221386_SW0 (N940)
+     LUT4:I1->O            1   0.612   0.000  XLXI_3/kolor_1_mux00221488 (XLXI_3/kolor_1_mux0022)
+     FDS:D                     0.268          XLXI_3/kolor_1
+    ----------------------------------------
+    Total                     23.180ns (14.305ns logic, 8.876ns route)
+                                       (61.7% logic, 38.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_4/Clk25MHz1'
+  Clock period: 10.328ns (frequency: 96.823MHz)
+  Total number of paths / destination ports: 72504 / 203
+-------------------------------------------------------------------------
+Delay:               10.328ns (Levels of Logic = 34)
+  Source:            XLXI_4/vertical_counter_1 (FF)
+  Destination:       XLXI_4/vertical_counter_31 (FF)
+  Source Clock:      XLXI_4/Clk25MHz1 rising
+  Destination Clock: XLXI_4/Clk25MHz1 rising
+
+  Data Path: XLXI_4/vertical_counter_1 to XLXI_4/vertical_counter_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             7   0.514   0.754  XLXI_4/vertical_counter_1 (XLXI_4/vertical_counter_1)
+     LUT1:I0->O            1   0.612   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<1>_rt (XLXI_4/Madd_vertical_counter_addsub0000_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<1> (XLXI_4/Madd_vertical_counter_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<2> (XLXI_4/Madd_vertical_counter_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<3> (XLXI_4/Madd_vertical_counter_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<4> (XLXI_4/Madd_vertical_counter_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<5> (XLXI_4/Madd_vertical_counter_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<6> (XLXI_4/Madd_vertical_counter_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<7> (XLXI_4/Madd_vertical_counter_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<8> (XLXI_4/Madd_vertical_counter_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<9> (XLXI_4/Madd_vertical_counter_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<10> (XLXI_4/Madd_vertical_counter_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<11> (XLXI_4/Madd_vertical_counter_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<12> (XLXI_4/Madd_vertical_counter_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<13> (XLXI_4/Madd_vertical_counter_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<14> (XLXI_4/Madd_vertical_counter_addsub0000_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<15> (XLXI_4/Madd_vertical_counter_addsub0000_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<16> (XLXI_4/Madd_vertical_counter_addsub0000_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<17> (XLXI_4/Madd_vertical_counter_addsub0000_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<18> (XLXI_4/Madd_vertical_counter_addsub0000_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<19> (XLXI_4/Madd_vertical_counter_addsub0000_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<20> (XLXI_4/Madd_vertical_counter_addsub0000_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<21> (XLXI_4/Madd_vertical_counter_addsub0000_cy<21>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<22> (XLXI_4/Madd_vertical_counter_addsub0000_cy<22>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<23> (XLXI_4/Madd_vertical_counter_addsub0000_cy<23>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<24> (XLXI_4/Madd_vertical_counter_addsub0000_cy<24>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<25> (XLXI_4/Madd_vertical_counter_addsub0000_cy<25>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<26> (XLXI_4/Madd_vertical_counter_addsub0000_cy<26>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<27> (XLXI_4/Madd_vertical_counter_addsub0000_cy<27>)
+     MUXCY:CI->O           1   0.051   0.000  XLXI_4/Madd_vertical_counter_addsub0000_cy<28> (XLXI_4/Madd_vertical_counter_addsub0000_cy<28>)
+     XORCY:CI->O           2   0.699   0.383  XLXI_4/Madd_vertical_counter_addsub0000_xor<29> (XLXI_4/vertical_counter_addsub0000<29>)
+     LUT4:I3->O            1   0.612   0.509  XLXI_4/vertical_counter_cmp_eq0000149 (XLXI_4/vertical_counter_cmp_eq0000149)
+     LUT3:I0->O            1   0.612   0.387  XLXI_4/vertical_counter_cmp_eq0000152 (XLXI_4/vertical_counter_cmp_eq0000152)
+     LUT4:I2->O            1   0.612   0.360  XLXI_4/vertical_counter_cmp_eq0000233 (XLXI_4/vertical_counter_cmp_eq0000233)
+     LUT4:I3->O           32   0.612   1.073  XLXI_4/vertical_counter_cmp_eq0000464 (XLXI_4/vertical_counter_cmp_eq0000)
+     FDRE:R                    0.795          XLXI_4/vertical_counter_31
+    ----------------------------------------
+    Total                     10.328ns (6.863ns logic, 3.466ns route)
+                                       (66.4% logic, 33.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk_50MHz'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              3.490ns (Levels of Logic = 4)
+  Source:            PS2_Data (PAD)
+  Destination:       XLXI_5/ByteRdy (FF)
+  Destination Clock: Clk_50MHz rising
+
+  Data Path: PS2_Data to XLXI_5/ByteRdy
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.106   0.532  PS2_Data_IBUF (PS2_Data_IBUF)
+     begin scope: 'XLXI_5'
+     LUT2:I0->O            1   0.612   0.360  ByteRdy_and0000_SW0_SW0 (N6)
+     LUT4:I3->O            1   0.612   0.000  ByteRdy_and0000 (ByteRdy_and0000)
+     FDR:D                     0.268          ByteRdy
+    ----------------------------------------
+    Total                      3.490ns (2.598ns logic, 0.892ns route)
+                                       (74.4% logic, 25.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_4/Clk25MHz1'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              4.040ns (Levels of Logic = 1)
+  Source:            XLXI_4/hs_out (FF)
+  Destination:       VGA_HS (PAD)
+  Source Clock:      XLXI_4/Clk25MHz1 rising
+
+  Data Path: XLXI_4/hs_out to VGA_HS
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.514   0.357  XLXI_4/hs_out (XLXI_4/hs_out)
+     OBUF:I->O                 3.169          VGA_HS_OBUF (VGA_HS)
+    ----------------------------------------
+    Total                      4.040ns (3.683ns logic, 0.357ns route)
+                                       (91.2% logic, 8.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk_50MHz'
+  Total number of paths / destination ports: 26 / 7
+-------------------------------------------------------------------------
+Offset:              5.515ns (Levels of Logic = 3)
+  Source:            XLXI_13/State_20 (FF)
+  Destination:       LCD_RW (PAD)
+  Source Clock:      Clk_50MHz rising
+
+  Data Path: XLXI_13/State_20 to LCD_RW
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRSE:C->Q            4   0.514   0.651  State_20 (State<20>)
+     LUT2:I0->O            6   0.612   0.569  T_or00001 (LCD_RW)
+     end scope: 'XLXI_13'
+     OBUF:I->O                 3.169          LCD_RW_OBUF (LCD_RW)
+    ----------------------------------------
+    Total                      5.515ns (4.295ns logic, 1.220ns route)
+                                       (77.9% logic, 22.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 50.00 secs
+Total CPU time to Xst completion: 49.90 secs
+ 
+--> 
+
+Total memory usage is 284428 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   35 (   0 filtered)
+Number of infos    :   72 (   0 filtered)
+

@@ -1,0 +1,17 @@
+vhdtdtfi -lib work PS2_driver.vhd -prj wallpong -o KBD_driver.spl -module KBD_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work KBD_driver.vhd -prj wallpong -o KBD_driver.spl -module KBD_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e KBD_driver.spl C:/Users/lab/Desktop/projekt_gra/KBD_driver.sym 
+vhdtdtfi -lib work KBD_driver.vhd -prj wallpong -o KBD_driver.spl -module KBD_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e KBD_driver.spl C:/Users/lab/Desktop/projekt_gra/KBD_driver.sym 
+vhdtdtfi -lib work KBD_driver.vhd -prj wallpong -o KBD_driver.spl -module KBD_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e KBD_driver.spl C:/Users/lab/Desktop/projekt_gra/KBD_driver.sym 
+vhdtdtfi -lib work KBD_driver.vhd -prj wallpong -o KBD_driver.spl -module KBD_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e KBD_driver.spl C:/Users/lab/Desktop/projekt_gra/KBD_driver.sym 
+vhdtdtfi -lib work KBD_driver.vhd -prj wallpong -o KBD_driver.spl -module KBD_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e KBD_driver.spl C:/Users/lab/Desktop/projekt_gra/KBD_driver.sym 
+vhdtdtfi -lib work KBD_driver.vhd -prj wallpong -o KBD_driver.spl -module KBD_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e KBD_driver.spl C:/Users/lab/Desktop/projekt_gra/KBD_driver.sym 
+vhdtdtfi -lib work KBD_driver.vhd -prj wallpong -o KBD_driver.spl -module KBD_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e KBD_driver.spl C:/Users/lab/Desktop/projekt_gra/KBD_driver.sym 
+vhdtdtfi -lib work KBD_driver.vhd -prj wallpong -o KBD_driver.spl -module KBD_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e KBD_driver.spl C:/Users/lab/Desktop/projekt_gra/KBD_driver.sym 

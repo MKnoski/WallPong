@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/lab/Desktop/projekt_gra/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/lab/Desktop/projekt_gra/xst"
+elaborate
+-ifn KBD_driver.prj
+-ifmt mixed

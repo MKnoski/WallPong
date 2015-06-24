@@ -1,0 +1,58 @@
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab12_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab12_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab12_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab12_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab12_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab12_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/Users/Piotrek/Desktop/lab12_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab13_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab13_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab13_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab13_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab13_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab13_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab13_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab13_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab13_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab13_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab13_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab13_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab13_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab13_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab13_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab13_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/.Xilinx/lab13_czw/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl {F:/uklady cyfrowe i systemy wbudowane 2/ukladziki - sterna/lab14_czw/VGA_driver.sym} 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl {F:/uklady cyfrowe i systemy wbudowane 2/ukladziki - sterna/lab14_czw/VGA_driver.sym} 
+vhdtdtfi -lib work VGA_Driver.vhd -prj lab12_czw -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl {F:/uklady cyfrowe i systemy wbudowane 2/ukladziki - sterna/lab14_czw/VGA_driver.sym} 
+vhdtdtfi -lib work VGA_Driver.vhd -prj wallpong -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/Users/lab/Desktop/projekt_gra/VGA_driver.sym 
+vhdtdtfi -lib work VGA_Driver.vhd -prj wallpong -o VGA_driver.spl -module VGA_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e VGA_driver.spl C:/Users/lab/Desktop/projekt_gra/VGA_driver.sym 

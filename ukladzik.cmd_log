@@ -1,0 +1,346 @@
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+sch2sym -intstyle ise -family spartan3e -refsym ukladzik {C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.sch} {C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.sym} 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol3/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol4/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol4/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol4/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol4/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol4/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol4/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol4/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol4/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol4/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol4/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol4/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol4/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol4/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol4/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol4/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol4/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol4/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol4/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt_gra vol4/ukladzik.xst" -ofn "C:/Users/lab/Desktop/projekt_gra vol4/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-5 "ukladzik.ngc" ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+sch2sym -intstyle ise -family spartan3e -refsym ukladzik {G:/uklady cyfrowe i systemy wbudowane 2/WALLPONG_v1.0/ukladzik.sch} {G:/uklady cyfrowe i systemy wbudowane 2/WALLPONG_v1.0/ukladzik.sym} 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.xst" -ofn "C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.xst" -ofn "C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.xst" -ofn "C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.xst" -ofn "C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.xst" -ofn "C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.xst" -ofn "C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.xst" -ofn "C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.xst" -ofn "C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc LCD.ucf -p xc3s500e-fg320-5 ukladzik.ngc ukladzik.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o ukladzik_map.ncd ukladzik.ngd ukladzik.pcf 
+par -w -intstyle ise -ol high -t 1 ukladzik_map.ncd ukladzik.ncd ukladzik.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ukladzik.twx ukladzik.ncd -o ukladzik.twr ukladzik.pcf -ucf GenIO.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f ukladzik.ut ukladzik.ncd 

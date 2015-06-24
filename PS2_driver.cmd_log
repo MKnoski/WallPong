@@ -1,0 +1,5 @@
+vhdtdtfi -lib work PS2_driver.vhd -prj wallpong -o PS2_driver.spl -module PS2_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PS2_driver.spl C:/Users/lab/Desktop/projekt_gra/PS2_driver.sym 
+vhdtdtfi -lib work PS2_driver.vhd -prj wallpong -o PS2_driver.spl -module PS2_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e PS2_driver.spl C:/Users/lab/Desktop/projekt_gra/PS2_driver.sym 
+vhdtdtfi -prj wallpong -o PS2_driver.spl -module PS2_driver -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 

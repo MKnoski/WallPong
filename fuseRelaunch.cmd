@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/.Xilinx/lab12_czw/VGA_driver_isim_beh.exe" -prj "C:/.Xilinx/lab12_czw/VGA_driver_beh.prj" "work.VGA_driver" 

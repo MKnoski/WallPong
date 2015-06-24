@@ -1,0 +1,8 @@
+AR obraz behavioral C:/Users/lab/Desktop/WALLPONG_v1.0/obraz.vhd sub00/vhpl01 1432018400
+AR ukladzik behavioral C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.vhf sub00/vhpl07 1432018406
+EN kbd_driver NULL C:/Users/lab/Desktop/WALLPONG_v1.0/KBD_driver.vhd sub00/vhpl04 1432018403
+AR kbd_driver behavioral C:/Users/lab/Desktop/WALLPONG_v1.0/KBD_driver.vhd sub00/vhpl05 1432018404
+EN vga_driver NULL C:/Users/lab/Desktop/WALLPONG_v1.0/VGA_Driver.vhd sub00/vhpl02 1432018401
+EN obraz NULL C:/Users/lab/Desktop/WALLPONG_v1.0/obraz.vhd sub00/vhpl00 1432018399
+AR vga_driver behavioral C:/Users/lab/Desktop/WALLPONG_v1.0/VGA_Driver.vhd sub00/vhpl03 1432018402
+EN ukladzik NULL C:/Users/lab/Desktop/WALLPONG_v1.0/ukladzik.vhf sub00/vhpl06 1432018405

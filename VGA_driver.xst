@@ -1,0 +1,5 @@
+set -tmpdir "G:/lab14_czw/xst/projnav.tmp"
+set -xsthdpdir "G:/lab14_czw/xst"
+elaborate
+-ifn VGA_driver.prj
+-ifmt mixed

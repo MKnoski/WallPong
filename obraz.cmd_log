@@ -1,0 +1,104 @@
+vhdtdtfi -lib work obraz.vhd -prj lab12_czw -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl C:/.Xilinx/lab13_czw/obraz.sym 
+vhdtdtfi -lib work obraz.vhd -prj lab12_czw -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl C:/.Xilinx/lab13_czw/obraz.sym 
+vhdtdtfi -lib work obraz.vhd -prj lab12_czw -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl C:/.Xilinx/lab13_czw/obraz.sym 
+vhdtdtfi -lib work obraz.vhd -prj lab12_czw -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl C:/.Xilinx/lab13_czw/obraz.sym 
+vhdtdtfi -lib work obraz.vhd -prj lab12_czw -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl C:/.Xilinx/lab13_czw/obraz.sym 
+vhdtdtfi -lib work obraz.vhd -prj lab12_czw -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl C:/.Xilinx/lab13_czw/obraz.sym 
+vhdtdtfi -lib work obraz.vhd -prj lab12_czw -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl C:/.Xilinx/lab13_czw/obraz.sym 
+vhdtdtfi -lib work obraz.vhd -prj lab12_czw -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl C:/.Xilinx/lab13_czw/obraz.sym 
+vhdtdtfi -lib work obraz.vhd -prj lab12_czw -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl C:/.Xilinx/lab13_czw/obraz.sym 
+vhdtdtfi -lib work obraz.vhd -prj lab12_czw -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {F:/uklady cyfrowe i systemy wbudowane 2/ukladziki - sterna/lab14_czw/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj lab12_czw -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {F:/uklady cyfrowe i systemy wbudowane 2/ukladziki - sterna/lab14_czw/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl C:/Users/lab/Desktop/projekt_gra/obraz.sym 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl C:/Users/lab/Desktop/projekt_gra/obraz.sym 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl C:/Users/lab/Desktop/projekt_gra/obraz.sym 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol3/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol3/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol3/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol3/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol3/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol3/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol3/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol3/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol3/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol3/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol3/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol3/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol3/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol3/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol3/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol3/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol4/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol4/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol4/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol4/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol4/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol4/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol4/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol4/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol4/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol4/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol4/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e obraz.spl {C:/Users/lab/Desktop/projekt_gra vol4/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w obraz.spl {G:/uklady cyfrowe i systemy wbudowane 2/WALLPONG_v1.0/obraz.sym} 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w obraz.spl C:/Users/lab/Desktop/WALLPONG_v1.0/obraz.sym 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w obraz.spl C:/Users/lab/Desktop/WALLPONG_v1.0/obraz.sym 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w obraz.spl C:/Users/lab/Desktop/WALLPONG_v1.0/obraz.sym 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w obraz.spl C:/Users/lab/Desktop/WALLPONG_v1.0/obraz.sym 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w obraz.spl C:/Users/lab/Desktop/WALLPONG_v1.0/obraz.sym 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w obraz.spl C:/Users/lab/Desktop/WALLPONG_v1.0/obraz.sym 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w obraz.spl C:/Users/lab/Desktop/WALLPONG_v1.0/obraz.sym 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w obraz.spl C:/Users/lab/Desktop/WALLPONG_v1.0/obraz.sym 
+vhdtdtfi -lib work obraz.vhd -prj wallpong -o obraz.spl -module obraz -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e -w obraz.spl C:/Users/lab/Desktop/WALLPONG_v1.0/obraz.sym 

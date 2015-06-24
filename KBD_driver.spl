@@ -1,0 +1,8 @@
+[Inputs]
+D0_Rdy
+E0
+=D0[7:0]=
+[Outputs]
+right
+left
+[BiDir]

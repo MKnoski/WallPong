@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/lab/Desktop/WALLPONG_v1.0/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/lab/Desktop/WALLPONG_v1.0/xst"
+elaborate
+-ifn obraz.prj
+-ifmt mixed

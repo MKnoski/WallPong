@@ -1,0 +1,10 @@
+[Inputs]
+right
+left
+Clk50MHz
+=pix_x[9:0]=
+=pix_y[8:0]=
+[Outputs]
+=kolor[2:0]=
+=score[63:0]=
+[BiDir]
